@@ -31,15 +31,14 @@ with tab2:
     st.title('Hello World')
     """, language="python")
 
-
-    col1, col2 = st.columns(2)  # 2개의 열 생성
-
 with tab3:
-
+    col1, col2, col3 = st.columns(3)  # 2개의 열 생성
     with col1:
         st.link_button("클래스룸", 'https://www.classroom.google.com')
     with col2:
         st.link_button("드라이브", 'https://www.drive.google.com')
+    with col3:
+        st.link_button("하이러닝", 'https://www.hi.goe.go.kr')
 
 with tab4:
     #age = st.number_input("나이를 입력해 주세요!",step=1)
