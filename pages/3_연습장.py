@@ -1,15 +1,7 @@
 import streamlit as st
 import math as mt
 
-tab1, tab2, tab3, tab4 = st.tabs(["메인화면", "기타", "바로가기", "정보 입력"])
-
-with tab1:
-    st.header("🎈 나의 새로운 앱")
-    st.warning("2025년 10월 6일은 추석입니다")
-    st.success("즐거운 추석 되세요!")
-    st.image("https://gongu.copyright.or.kr/gongu/wrt/cmmn/wrtFileImageView.do?wrtSn=13297230&filePath=L2Rpc2sxL25ld2RhdGEvMjAyMS8yMS9DTFMxMDAwNC8xMzI5NzIzMF9XUlRfMjFfQ0xTMTAwMDRfMjAyMTEyMTNfMQ==&thumbAt=Y&thumbSe=b_tbumb&wrtTy=10004")
-
-    st.markdown("---")
+tab2, tab3, tab4 = st.tabs(["기타", "바로가기", "정보 입력"])
 
 with tab2:
     st.title("근의 공식")
