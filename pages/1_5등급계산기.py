@@ -26,6 +26,7 @@ with col2:
     st.dataframe(pd.DataFrame({
 "등급": ["1", "2", "3", "4", "5"],
 "인원수": [mt.floor(student*0.1),mt.floor(student*0.34)-mt.floor(student*0.1),mt.floor(student*0.66)-mt.floor(student*0.34),mt.floor(student*0.9)-mt.floor(student*0.66),student-mt.floor(student*0.9)],
+"누적 인원수": [mt.floor(student*0.1),mt.floor(student*0.34),mt.floor(student*0.66),mt.floor(student*0.9),student],
 "비율": ["10%", "24%","32%","24%","10%"],
 "누적 비율": ["10%","34%","66%","90%","100%"]
 
